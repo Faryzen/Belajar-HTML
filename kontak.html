@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sekolah Koding</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body> 
+
+        <!-- bagian menu website -->
+        <div>
+            <a href="halaman1.html" class="menu">Home</a>
+            <a href="Member.html" class="menu">Member</a>
+            <a href="Kontak.html" class="menu">Kontak</a>
+        </div>
+
+        <!-- bagian awal, isinya tag heading  -->
+        <div>
+            <h1> Sekolah Koding </h1>
+            <h2> &nbsp; Tutorial Online untuk belajar mambuat website </h2>
+        </div>
+
+        <!-- bagian membuat form   -->
+        <form>
+            <fieldset>
+                <legend> Nama dan Pesan </legend>
+                <label for="Nama_Member">Nama :</label> <br>
+                <input type="text" placeholder="Nama Member" id="Nama_Member">
+                <br><br>
+                <label for="Pesan_User">Pesan :</label> <br>
+                <textarea cols="50" rows="7" placeholder="masukan pesan anda" id="Pesan_User"></textarea>
+            </fieldset>
+            
+            <br><br>
+
+            <fieldset>
+                <legend> Pilihan Data  </legend>
+                <label>Hobi :</label> <br>  
+                <input type="checkbox" name="hobi" value="0"> menggambar <br>
+                <input type="checkbox" name="hobi" value="1" checked> bernyanyi  <br>
+                <input type="checkbox" name="hobi" value="2"> olah raga  <br>
+                <input type="checkbox" name="hobi" value="3"> traveling <br>
+                <br>
+                <label>Jenis Kelamin :</label> <br>
+                <input type="radio" name="Gender" value="0"checked> Laki - Laki <br>
+                <input type="radio" name="Gender" value="1"> Perempuan <br>
+                <br>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Kirim Data">
+            <br><br>
+
+            <!-- bagian select dan option -->
+            <label>Pelajaran :</label>
+            <br>
+            <select>
+                <optgroup label="Frontend">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Js</option>
+                </optgroup>
+
+                <optgroup label="Backend">
+                    <option>php</option>
+                    <option>phyton</option>
+                    <option>DataBase</option>
+                </optgroup>
+            </select>
+    </body>
+</html>
